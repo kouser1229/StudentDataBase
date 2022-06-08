@@ -1,0 +1,49 @@
+import pandas as pd
+data={
+    "rollno":{
+        "1":101,
+        "2":102,
+        "3":103,
+        "4":104,
+        "5":105
+           },
+    "name":{
+        "1":"kouser",
+        "2":"gita",
+        "3":"aish",
+        "4":"aliya",
+        "5":"siri"
+            },
+    "sscCGPA":{
+        "1":9.3,
+        "2":8.8,
+        "3":9.0,
+        "4":8.1,
+        "5":8.8
+            },
+    "interCGPA":{
+        "1":9.1,
+        "2":9.0,
+        "3":9.1,
+        "4":8.8,
+        "5":8.9
+            },
+    "currentCGPA":{
+        "1":8.0,
+        "2":9.5,
+        "3":8.0,
+        "4":8.0,
+        "5":8.0
+            },
+    "PrefferedProgramming Language":{
+        "1":"python",
+        "2":"c",
+        "3":"c",
+        "4":"cpp",
+        "5":"java"
+            },
+    }
+df=pd.DataFrame(data)
+print("Student DataBase:")
+print(df)
+
